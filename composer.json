@@ -1,0 +1,17 @@
+{
+    "name": "15219150444/object_1",
+    "description": "object_1_description",
+    "type": "object",
+    "require-dev": {
+        "15219150444/study_composer_3": "dev-master"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "15219150444",
+            "email": "939970308@qq.ocm"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
