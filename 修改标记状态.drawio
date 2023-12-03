@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" modified="2023-12-03T07:46:24.615Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ONROEHMJVQDlW1bxq49p" version="22.1.5" type="github">
+  <diagram name="第 1 页" id="8ssVTDq5s0VuUs4Fk0B0">
+    <mxGraphModel dx="1114" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L8e8LoBa5Zj_JNY19spO-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L8e8LoBa5Zj_JNY19spO-1" target="L8e8LoBa5Zj_JNY19spO-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L8e8LoBa5Zj_JNY19spO-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="10" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L8e8LoBa5Zj_JNY19spO-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L8e8LoBa5Zj_JNY19spO-11" target="L8e8LoBa5Zj_JNY19spO-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L8e8LoBa5Zj_JNY19spO-11" value="校验参数" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="90" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L8e8LoBa5Zj_JNY19spO-13" value="获取订单信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L8e8LoBa5Zj_JNY19spO-16" value="" style="endArrow=classic;html=1;rounded=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="L8e8LoBa5Zj_JNY19spO-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="696" as="sourcePoint" />
+            <mxPoint x="480" y="746" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="696" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8e8LoBa5Zj_JNY19spO-45" value="已退款" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L8e8LoBa5Zj_JNY19spO-16">
+          <mxGeometry x="0.4" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8e8LoBa5Zj_JNY19spO-17" value="" style="endArrow=classic;html=1;rounded=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="L8e8LoBa5Zj_JNY19spO-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="696" as="sourcePoint" />
+            <mxPoint x="280" y="844" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="696" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8e8LoBa5Zj_JNY19spO-43" value="待标记" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L8e8LoBa5Zj_JNY19spO-17">
+          <mxGeometry x="0.3952" relative="1" as="geometry">
+            <mxPoint y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8e8LoBa5Zj_JNY19spO-20" value="" style="endArrow=classic;html=1;rounded=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="390" as="sourcePoint" />
+            <mxPoint x="380" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8e8LoBa5Zj_JNY19spO-22" value="判断当前标记状态" style="rhombus;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="340" y="576" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L8e8LoBa5Zj_JNY19spO-30" value="验证提交状态必须为已付款" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="766" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L8e8LoBa5Zj_JNY19spO-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L8e8LoBa5Zj_JNY19spO-32" target="L8e8LoBa5Zj_JNY19spO-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L8e8LoBa5Zj_JNY19spO-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="L8e8LoBa5Zj_JNY19spO-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="764" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="684" />
+              <mxPoint x="380" y="684" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8e8LoBa5Zj_JNY19spO-47" value="已付款" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L8e8LoBa5Zj_JNY19spO-46">
+          <mxGeometry x="0.463" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8e8LoBa5Zj_JNY19spO-32" value="验证提交状态必须为已退款" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="766" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L8e8LoBa5Zj_JNY19spO-34" value="验证提交状态必须为待标记" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="766" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L8e8LoBa5Zj_JNY19spO-38" value="保存标记状态" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="894" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L8e8LoBa5Zj_JNY19spO-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L8e8LoBa5Zj_JNY19spO-40" target="L8e8LoBa5Zj_JNY19spO-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L8e8LoBa5Zj_JNY19spO-40" value="验证订单状态必须为为预售订单状态" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L8e8LoBa5Zj_JNY19spO-48" value="" style="endArrow=classic;html=1;rounded=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="270" as="sourcePoint" />
+            <mxPoint x="380" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8e8LoBa5Zj_JNY19spO-49" value="验证子单品牌必须为为1688品牌" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
